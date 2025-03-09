@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>משחק גילוי טקסט</title>
+</head>
+<body>
+  <h1>ברוכים הבאים למשחק!</h1>
+  <p>לחצו על הכפתור למעבר לשלב הבא.</p>
+  <button onclick="revealText()">עבור לשלב הבא</button>
+  <div id="hiddenText" style="display:none;">
+    <p>זהו הטקסט הסודי!</p>
+  </div>
+  <script>
+    function revealText() {
+      document.getElementById("hiddenText").style.display = "block";
+    }
+  </script>
+</body>
+</html>
